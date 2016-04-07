@@ -1,0 +1,11 @@
+Zipmerge merges the content of many zip files, without decompressing and
+recompressing the data.
+
+Usage:
+
+    zipmerge [-o out.zip] a.zip b.zip ...
+
+By default, zipmerge appends the content of the second and subsequent zip
+files to the first, rewriting the first in place. If the -o option is given,
+zipmerge creates a new output file containing the content of all the zip
+files, without modifying any of the source zip files.
